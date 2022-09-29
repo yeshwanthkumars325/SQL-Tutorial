@@ -26,3 +26,21 @@ SELECT order_id,o.customer_id,first_name,last_name
 FROM orders o                     # alias name for the orders is = o and also customers =c
 JOIN customers c                                          
 	ON o.customer_id = c.customer_id;
+
+
+##Excercise
+-- create query to join order table with products table
+
+select*from order_items;
+select*from products;
+
+SELECT*
+FROM order_items AS oi
+JOIN products AS P
+ON oi.product_id=p.product_id;
+
+
+select order_id,p.product_id,quantity,oi.unit_price AS unit_order,p.unit_price AS unit_product,name
+from order_items oi
+JOIN products p                           #####**** HERE p.product_id we must tell which table that product id use because in both table that column is present 
+ON oi.product_id=p.product_id;
