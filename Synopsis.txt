@@ -1,0 +1,201 @@
+1. Getting Started
+	1- IntroductionFile
+	2- What is SQLFile
+	3- Installing MySQL on MacFile
+	4- Installing MySQL on WindowsFile
+	5- Creating the DatabasesFile
+	6- What Youll LearnFile
+
+2. Retrieving Data From a Single Table
+ 	2- The SELECT StatementFile
+	3- The SELECT ClauseFile
+	4- The WHERE ClauseFile
+	5- The AND, OR and NOT OperatorsFile
+	6- The IN Operator - TitleFile
+	7- The BETWEEN Operator - TitleFile
+	8- The LIKE Operator - TitleFile
+	9- The REGEXP OperatorFile
+	11- The ORDER BY ClauseFile
+	10- The IS NULL OperatorFile
+	12- The LIMIT ClauseFile
+	
+3. Retrieving Data From Multiple Tables
+ 	1- Inner JoinsFile
+	2- Joining Across DatabasesFile
+	3- Self JoinsFile
+	4- Joining Multiple TablesFile
+	5- Compound Join ConditionsFile
+	6- Implicit Join SyntaxFile
+	7- Outer JoinsFile
+	8- Outer Join Between Multiple TablesFile
+	9- Self Outer JoinsFile
+	10- The USING ClauseFile
+	11- Natural JoinsFile
+	12- Cross JoinsFile
+	13- UnionsFile
+	
+4. Inserting, Updating, and Deleting Data
+ 	1- Column AttributesFile
+	2- Inserting a RowFile
+	3- Inserting Multiple RowsFile
+	4- Inserting Hierarchical RowsFile
+	5- Creating a Copy of a TableFile
+	6- Updating a Single RowFile
+	7- Updating Multiple RowsFile
+	8- Using Subqueries in UpdatesFile
+	9- Deleting RowsFile
+	10- Restoring the DatabasesFile
+
+5. Summarizing Data
+ 	1- Aggregate FunctionsFile
+	2- The GROUP BY Clause - TitleFile
+	3- The HAVING Clause - TitleFile
+	4- The ROLLUP Operator - TitleFile
+
+6. Writing Complex Query
+ 	1- IntroductionFile
+	2- SubqueriesFile
+	3- The IN OperatorFile
+	4- Subqueries vs JoinsFile
+	5- The ALL KeywordFile
+	6- The ANY KeywordFile
+	7- Correlated SubqueriesFile
+	8- The EXISTS OperatorFile
+	9- Subqueries in the SELECT ClauseFile
+	10- Subqueries in the FROM ClauseFile
+	
+7. Essential MySQL Functions
+ 	1- Numeric FunctionsFile
+	2- String FunctionsFile
+	3- Date Functions in MySQLFile
+	4- Formatting Dates and TimesFile
+	5- Calculating Dates and TimesFile
+	6- The IFNULL and COALESCE FunctionsFile
+	7- The IF FunctionFile
+	8- The CASE OperatorFile
+
+8. Views
+ 	1- Creating ViewsFile
+	2- Altering or Dropping ViewsFile
+	3- Updatable ViewsFile
+	4- THE WITH OPTION CHECK ClauseFile
+	5- Other Benefits of ViewsFile
+
+9. Stored Procedures
+ 	1- What are Stored ProceduresFile
+	2- Creating a Stored ProcedureFile
+	3- Creating Procedures Using MySQLWorkbenchFile
+	4- Dropping Stored ProceduresFile
+	5- ParametersFile
+	6- Parameters with Default ValueFile
+	7- Parameter ValidationFile
+	8- Output ParametersFile
+	9- VariablesFile
+	10- FunctionsFile
+	11- Other ConventionsFile
+
+
+10. Triggers and Events
+ 	1- TriggersFile
+	2- Viewing TriggersFile
+	3- Dropping TriggersFile
+	4- Using Triggers for AuditingFile
+	5- EventsFile
+	6- Viewing, Dropping and Altering EventsFile
+	create-payments-tableFile
+	
+
+11. Transactions and Concurrency
+ 	1- TransactionsFile
+	2- Creating TransactionsFile
+	3- Concurrency and LockignFile
+	4- Concurrency ProblemsFile
+	5- Transaction Isolation LevelsFile
+	6- READ UNCOMMITTED Isolation LevelFile
+	7- READ COMMITTED Isolation LevelFile
+	8- REPEATABLE READ Isolation LevelFile
+	9- SERIALIZABLE Isolation LevelFile
+	10- DeadlocksFile
+
+
+12. Data Types
+ 	1- IntroductionFile
+	2- String TypesFile
+	3- Integer TypesFile
+	4- Fixed-point and Floating-point TypesFile
+	5- Boolean TypesFile
+	6- Enum and Set TypesFile
+	7- Date and Time TypesFile
+	8- Blob TypesFile
+	9- JSON TypeFile
+
+
+13. Designing Databases
+ 	1- IntroductionFile
+	2- Data ModellingFile
+	3- Conceptual ModelsFile
+	4- Logical ModelsFile
+	5- Physical ModelsFile
+	6- Primary KeysFile
+	7- Foreign KeysFile
+	8- Foreign Key ConstraintsFile
+	9- NormalizationFile
+	10- 1NF- First Normal FormFile
+	11- Link TablesFile
+	12- 2NF- Second Normal FormFile
+	13- 3NF- Third Normal FormFile
+	14- My Pragmatic AdviceFile
+	15- Dont Model the UniverseFile
+	16- Forward Engineering a ModelFile
+	17- Synchronizing a Model with a DatabaseFile
+	18- Reverse Engineering a DatabaseFile
+	19- Project- Flight Booking SystemFile
+	19- Project- Flight Booking SystemFile
+	20- Solution- Conceptual ModelFile
+	21- Solution- Logical ModelFile
+	22- Project - Video Rental ApplicationFile
+	22- RequirementsFile
+	23- Solution- Conceptual ModelFile
+	24- Solution- Logical ModelFile
+	25- Creating and Dropping DatabasesFile
+	26- Creating TablesFile
+	27- Altering TablesFile
+	28- Creating RelationshipsFile
+	29- Altering Primary and Foreign Key ConstraintsFile
+	30- Character Sets and CollationsFile
+	31- Storage EnginesFile
+	Vidly - Logical ModelFile
+
+
+
+14. Indexing for High Performance
+ 	1- IntroductionFile
+	2- IndexesFile
+	3- Creating IndexesFile
+	4- Viewing IndexesFile
+	5- Prefix IndexesFile
+	6- Full-text IndexesFile
+	7- Composite IndexesFile
+	8- Order of Columns in Composite IndexesFile
+	9- When Indexes are IgnoredFile
+	10- Using Indexes for SortingFile
+	11- Covering IndexeseFile
+	12- Index MaintenanceFile
+	13- Performance Best PracticesFile
+	create-db-blogFile
+	load 1000 customersFile
+
+
+15. Securing Databases
+ 	1- IntroductionFile
+	2- Creating a UserFile
+	3- Viewing UsersFile
+	4- Dropping UsersFile
+	5- Changing PasswordsFile
+	6- Granting PrivilegesFile
+	7- Viewing PrivilegesFile
+	8- Revoking PrivilegesFile
+	9-Wrap UpFile
+
+
+
